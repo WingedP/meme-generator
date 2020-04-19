@@ -1,8 +1,11 @@
 # meme-generator
 
 By Nhan Nguyen
+Demo:  
 ```
-Demo:  https://wingedp-memestash.herokuapp.com/
+https://wingedp-memestash.herokuapp.com/
 ```
 ### Example:
+```
 >![](/public/images/readmeimg.JPG)
+```
