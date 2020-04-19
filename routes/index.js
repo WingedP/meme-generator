@@ -29,7 +29,7 @@ router.get("/browse",(req,res)=>{
 //------------------------------BROWSE GOES HERE:
 
 //------------------------------POST UPLOAD GOES HERE:
-router.post("https://wingedp-memestash.herokuapp.com/upload",upload,async(req,res)=>{
+router.post("/upload",upload,async(req,res)=>{
 console.log(req.file);
 const data=loadData()
 const found = data.findIndex(e => e.originalname === req.file.originalname || e.size === req.file.size);
@@ -63,7 +63,7 @@ return res.render("allImages", {images: data})} catch(e){
 
 
 
-router.post("https://wingedp-memestash.herokuapp.com/addtext",async (req,res,next)=>{
+router.post("/addtext",async (req,res,next)=>{
 const{top,bot,id}=req.body
 // let textColor=req.body;
 // let textcolor;
