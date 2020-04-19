@@ -5,4 +5,4 @@ By Nhan Nguyen
 Demo:  https://wingedp-memestash.herokuapp.com/
 ```
 ### Example:
->![](readmeimg.JPG)
+>![](/public/images/readmeimg.JPG)
