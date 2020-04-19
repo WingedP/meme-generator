@@ -1,0 +1,154 @@
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/44/9d/d5/449dd50078ea8b1005922bd166721e3f.png);
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.memeicon{
+  width: 200px;
+}
+.memeenstein{
+  width: 330px;
+}
+.mainsec{
+  display: flex;
+  margin-top: 7rem;
+  padding-left: 3rem;
+  /* border: 2px solid orange; */
+}
+.navbar{
+  background-color: orchid !important;
+}
+.logoimg{
+  width: 70px !important;
+width: 0px;
+}
+.author{
+  font-family: 'Cardo', serif;}
+.browseimgs{
+  height: 95vh;
+  overflow-y: hidden !important;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(32,18,4,1) 26%, rgba(20,20,60,1) 44%, rgba(22,32,59,1) 50%, rgba(60,139,156,1) 100%);
+}
+.originalimgtitle{
+  text-align: center;
+  font-size: 30px;
+  background: -webkit-linear-gradient(45deg,rgb(147, 169, 182), rgb(177, 45, 45));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.inputstyle{
+  font-size: 20px;
+  width: 300px;
+}
+.uploadbutton{
+  font-size: 20px;
+}
+
+.hometitle{
+  letter-spacing: 3px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 5px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(45deg,rgb(33, 40, 44), rgb(177, 45, 45));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homebutton{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(45deg,rgb(33, 40, 44), rgb(177, 45, 45));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 20px;
+border-bottom: 2px solid transparent;
+transition: 0.2s ease-in-out;
+}
+.homebutton:hover{
+  border-bottom: 2px solid rgba(134, 113, 113, 0.897);
+
+}
+
+
+
+.title{
+  font-family:'Rajdhani', sans-serif;;
+  font-size: 50px;
+}
+.subtitle{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+.buttonrestyle{
+  border: 2px solid transparent !important;
+  
+  padding: 0 !important;
+  margin-top: 10px;
+}
+.buttonrestyle:hover{
+  border: 2px solid rgb(216, 101, 191) !important;
+}
+
+.blackcolorbox{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border: 2px solid greenyellow;
+}
+.whitecolorbox{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid greenyellow;
+
+}
+.modalwrapper{
+  background-color: white;
+  margin-right: 10rem !important;
+  width: 550px;
+    /* border: 1px solid orange; */
+}
+.bodyofyourmodal{
+
+text-align: center;
+}
+.contentbody{
+  margin-left: 8px;
+
+}
+.buttonstyle1{
+  width: 100px;
+  border-radius: 6px;
+  border: 2px solid rgb(193, 196, 188);
+  padding: 3px 0px 3px 0px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  color: aliceblue;
+  background-color: rgba(41, 71, 99, 0.788);
+  font-size: 20px;
+  transition: 0.3s;
+}
+.buttonstyle1:hover{
+background-color: rgb(60, 109, 93);  
+transition: 0.3s;
+
+}
+
+.textbox{
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 6px 0px 6px 0px;
+  background: rgb(226,226,231);
+  background: linear-gradient(270deg, rgba(226,226,231,1) 0%, rgba(225,191,228,1) 53%, rgba(189,189,189,1) 63%, rgba(183,192,214,1) 92%, rgba(175,175,189,1) 95%, rgba(142,166,233,1) 96%, rgba(131,166,173,1) 98%, rgba(214,205,196,1) 100%);}
